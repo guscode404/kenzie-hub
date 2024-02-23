@@ -1,0 +1,42 @@
+button {
+    padding: 0.625rem 1.75rem;
+    color: #FFF;
+    font-size: var(--text-size-1);
+    font-weight: var(--text-weight-3);
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.primary {
+    background-color: var(--color-primary);
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color-primary-focus);
+    }
+}
+
+.negative {
+    background-color: var(--color-primary-negative);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.deactivated {
+    background-color: var(--gray-1);
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--gray-2);
+    }
+}
+
+.exit {
+    background-color: var(--gray-3);
+
+    &:hover {
+        cursor:pointer;
+    }
+}
