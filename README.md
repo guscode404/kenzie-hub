@@ -1,3 +1,12 @@
+# Kenzie Hub
+This is an application made during the third module of Kenzie Academy.
+
+## Features
+- Basic API consumption
+- Local storage
+- CRUD
+- Simple authentication
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
